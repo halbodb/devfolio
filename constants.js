@@ -2,8 +2,8 @@ export const METADATA = {
   title: "Portfolio | Muhammad Sharjeel",
   description:
     "Muhammad Sharjeel is a Full Stack Developer from Pakistan, interested in crafting beautiful and functional applications. Sharjeel is pursuing his career in tech domain.",
-  // siteUrl: "https://shubhporwal.com/",
-  // twitterHandle: "@shubh731",
+  siteUrl: "https://devfolio-9thp00eut-sharjeel125.vercel.app//",
+  twitterHandle: "@MASharjeel1",
 };
 
 export const MENULINKS = [
@@ -98,7 +98,7 @@ export const PROJECTS = [
     description: "AgriTech app using React Native + Node JS 🍀",
     gradient: ["#56ab2f", "#a8e063"],
     url: "https://play.google.com/store/apps/details?id=com.agridunya.agridunya&hl=en&gl=US&pli=1",
-    tech: ["typescript","react","redux", "nodejs","mysql" ],
+    tech: ["typescript", "react", "redux", "nodejs", "mysql"],
   },
   {
     name: "Tesla",
@@ -116,7 +116,7 @@ export const PROJECTS = [
     description: "Livestock Digitals using React Native + Node JS 🐏",
     gradient: ["#000046", "#1CB5E0"],
     url: "https://play.google.com/store/apps/details?id=com.livestockdigi&hl=en&gl=US",
-    tech: ["react", "nodejs","mongodb"],
+    tech: ["react", "nodejs", "mongodb"],
   },
   {
     name: "Alabaster",
@@ -124,9 +124,9 @@ export const PROJECTS = [
     blurImage: "/projects/blur/alabaster-blur.png",
     description:
       "Alabaster is janitorial/cleaning service providers,self-contractor app 🧹",
-      gradient: ["#FFA62E", "#EA4D2C"],
+    gradient: ["#FFA62E", "#EA4D2C"],
     url: "https://play.google.com/store/apps/details?id=com.app.alabaster&hl=en&gl=US",
-    tech: ["typescript","react","redux"],
+    tech: ["typescript", "react", "redux"],
   },
 
 ];
@@ -187,4 +187,4 @@ export const WORK = [
   },
 ];
 
-export const GTAG = "G-5HCTL2TJ5W";
+export const GTAG = "G-5HCTL2TJ5We";
