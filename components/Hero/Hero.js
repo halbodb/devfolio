@@ -102,9 +102,13 @@ const Hero = () => {
         <div className="seq pt-4 ">
           <Button
             name="Resume"
-            target="_blank"
-            rel="noopener noreferrer"
-            href="/Muhammad-Sharjeel.pdf"
+            onClick={() => {
+              const link = document.createElement('a');
+              link.href = './Muhammad-Sharjeel.pdf';
+              link.rel = "noopener noreferrer";
+              link.target = "_blank"
+              link.click();
+            }}
           >
             Resume
           </Button>
