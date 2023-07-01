@@ -100,19 +100,14 @@ const Hero = () => {
           <Profiles />
         </div>
         <div className="seq pt-4 ">
-          <Button
-            name="Resume"
-            onClick={() => {
-              const link = document.createElement('a');
-              link.href = './Muhammad-Sharjeel.pdf';
-              link.rel = "noopener noreferrer";
-              link.target = "_blank"
-              link.click();
-            }}
-          >
-            Resume
-          </Button>
-          &nbsp;&nbsp;&nbsp;
+          <a href="/Muhammad_Sharjeel.pdf" target="_blank" rel="noopener noreferrer" >
+            <Button
+              classes="mr-3"
+              name="Resume"
+            >
+              Resume
+            </Button>
+          </a>
           <Button href={`#${MENULINKS[4].ref}`} classes="link" type="primary">
             Let&apos;s Talk
           </Button>
