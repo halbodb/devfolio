@@ -103,7 +103,7 @@ const Hero = () => {
           <Button
             name="Resume"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
             href="/Muhammad-Sharjeel.pdf"
           >
             Resume
