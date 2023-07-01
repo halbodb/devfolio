@@ -100,15 +100,16 @@ const Hero = () => {
           <Profiles />
         </div>
         <div className="seq pt-4 ">
-          {/* <Button
+          <Button
             classes="mr-3"
             name="Resume"
+            alt="resume"
             target="_blank"
-            rel="noreferrer"
-            href="/Muhammad_Sharjeel.pdf"
+            rel="noopener noreferrer"
+            href="/files/Muhammad_Sharjeel.pdf"
           >
             Resume
-          </Button> */}
+          </Button>
           <Button href={`#${MENULINKS[4].ref}`} classes="link" type="primary">
             Let&apos;s Talk
           </Button>
